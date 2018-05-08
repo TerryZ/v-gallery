@@ -46,9 +46,9 @@
                 let that = this;
                 //this.ctlClass["blueimp-gallery-carousel"] = false;
                 let target = e.target || e.srcElement,
-                    link = target.src ? target.parentNode : target,
-                    options = {
-                        index: link,
+                    link = target.src ? target.parentNode : target;
+                let options = {
+                        index: this.closest(link, 'a'),
                         event: e,
                         container : that.$refs.container,
                         urlProperty: 'image',
@@ -60,7 +60,19 @@
                         startSlideshow : false//是否自动开始播放图片轮播
                     },
                     links = that.$refs.links.getElementsByTagName('a');
+                //console.log(e);
+                //console.log(link.tagName);
                 gallery(links, options);
+            },
+            closest(dom, tag){
+                if(dom && tag){
+                    console.log(dom);
+                    if(dom.tagName.toLowerCase() === tag.toLowerCase())  return dom;
+                    else if(dom.parentNode){
+                        return this.closest(dom.parentNode, tag);
+                    }
+                }
+                return false;
             }
         },
         beforeMount(){
