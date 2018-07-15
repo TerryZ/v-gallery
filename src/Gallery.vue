@@ -51,7 +51,10 @@
              *      {title: 'img1', url:'http://image_url', thumbnail:'http://image_thumbnail',}
              * ]
              */
-            images: Array,
+            images: {
+                type: Array,
+                required: true
+            },
             controlPause: {
                 type: Boolean,
                 default: false
@@ -181,17 +184,22 @@
                 text-shadow: none;
             }
             .next, .prev{
-                border-color: #cccccc;
-                background-color: white;
-                color: #cccccc;
-                text-shadow: none;
+                border-color: #eeeeee;
+                background-color: transparent;
+                color: #eeeeee;
+                /*text-shadow:1px 1px 2px black;*/
+                box-shadow: 0 1px 20px rgba(0, 0, 0, 0.6);
             }
             .title {
-                bottom: 15px;
+                bottom: 0;
                 top: unset;
                 margin: 0;
                 width: 100%;
                 text-align: center;
+                color: white;
+                padding-right: 35px;
+                text-shadow:1px 1px 6px black;
+                white-space: nowrap;
             }
         }
         .light-gallery {
