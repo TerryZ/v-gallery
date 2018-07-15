@@ -65,6 +65,7 @@ Explorer on
 
 ![carousel](https://terryz.github.io/image/v-gallery/v-gallery-carousel.png)
 
+<br><br>
 
 ## Dependent on
 
