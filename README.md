@@ -7,7 +7,7 @@
 <p align="center"><img src="https://terryz.github.io/image/v-gallery/v-gallery-light.png" alt="v-gallery" ></p>
 
 <p align="center">
-  A Vue2 plugin make browsing images in gallery
+  A <strong>Vue2</strong> plugin for image show in gallery or carousel
 </p>
 
 <p align="center">
