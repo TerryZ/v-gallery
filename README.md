@@ -19,3 +19,14 @@ A Vue2 plugin make browsing images in gallery
 | [v-selectmenu](https://github.com/TerryZ/v-selectmenu) | [![npm version](https://img.shields.io/npm/v/v-selectmenu.svg)](https://www.npmjs.com/package/v-selectmenu) | A simple, easier and highly customized menu solution |
 
 <br><br>
+
+## Plugin preview
+
+*Gallery mode light theme*
+![light](https://terryz.github.io/image/v-gallery/v-gallery-light.png)
+
+*Gallery mode dark theme*
+![dark](https://terryz.github.io/image/v-gallery/v-gallery-dark.png)
+
+*Carousel*
+![carousel](https://terryz.github.io/image/v-gallery/v-gallery-carousel.png)
