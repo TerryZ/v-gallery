@@ -23,10 +23,13 @@ A Vue2 plugin make browsing images in gallery
 ## Plugin preview
 
 *Gallery mode light theme*
+
 ![light](https://terryz.github.io/image/v-gallery/v-gallery-light.png)
 
 *Gallery mode dark theme*
+
 ![dark](https://terryz.github.io/image/v-gallery/v-gallery-dark.png)
 
 *Carousel*
+
 ![carousel](https://terryz.github.io/image/v-gallery/v-gallery-carousel.png)
