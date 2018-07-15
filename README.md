@@ -7,7 +7,7 @@
 <p align="center"><img src="https://terryz.github.io/image/v-gallery/v-gallery-light.png" alt="v-gallery" ></p>
 
 <p align="center">
-  A <strong>Vue2</strong> plugin for image show in gallery or carousel
+  A <strong>Vue2</strong> plugin for images show in gallery or carousel
 </p>
 
 <p align="center">
