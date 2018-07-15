@@ -1,6 +1,37 @@
-# v-gallery
+<br><br>
 
-A Vue2 plugin make browsing images in gallery
+<h3 align="center">v-gallery</h3>
+
+<br>
+
+<p align="center"><img src="https://terryz.github.io/image/v-gallery/v-gallery-light.png" alt="v-gallery" ></p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/v-gallery"><img src="https://img.shields.io/npm/v/v-gallery.svg"></a>
+  <a href="https://mit-license.org/"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
+  <a href="https://www.npmjs.com/package/v-gallery"><img src="https://img.shields.io/npm/dy/v-gallery.svg"></a>
+</p>
+
+<p align="center">
+  A Vue2 plugin make browsing images in gallery
+</p>
+
+<p align="center">
+  <a href="https://nodei.co/npm/v-gallery/"><img src="https://nodei.co/npm/v-gallery.png"></a>
+</p>
+
+<br><br><br><br><br>
+
+## Demo、Document、Changelog
+Explorer on
+
+- [English site](https://terryz.github.io/vue/#/gallery)
+- [国内站点](https://terryz.gitee.io/vue/#/gallery)
+
+**If you think this project is helpful, please star it.**
+
+<br><br>
+
 
 ## Vue plugin series
 
