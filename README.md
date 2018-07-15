@@ -7,13 +7,13 @@
 <p align="center"><img src="https://terryz.github.io/image/v-gallery/v-gallery-light.png" alt="v-gallery" ></p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/v-gallery"><img src="https://img.shields.io/npm/v/v-gallery.svg"></a>
-  <a href="https://mit-license.org/"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
-  <a href="https://www.npmjs.com/package/v-gallery"><img src="https://img.shields.io/npm/dy/v-gallery.svg"></a>
+  A Vue2 plugin make browsing images in gallery
 </p>
 
 <p align="center">
-  A Vue2 plugin make browsing images in gallery
+  <a href="https://www.npmjs.com/package/v-gallery"><img src="https://img.shields.io/npm/v/v-gallery.svg"></a>
+  <a href="https://mit-license.org/"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
+  <a href="https://www.npmjs.com/package/v-gallery"><img src="https://img.shields.io/npm/dy/v-gallery.svg"></a>
 </p>
 
 <p align="center">
