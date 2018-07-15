@@ -64,3 +64,8 @@ Explorer on
 *Carousel*
 
 ![carousel](https://terryz.github.io/image/v-gallery/v-gallery-carousel.png)
+
+
+## Dependent on
+
+[blueimp Gallery](https://github.com/blueimp/Gallery)
