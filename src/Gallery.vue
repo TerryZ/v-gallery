@@ -48,7 +48,8 @@
             /**
              * data format:
              * [
-             *      {title: 'img1', url:'http://image_url', thumbnail:'http://image_thumbnail',}
+             *      {title: 'img1', url:'http://image_url', thumbnail:'http://image_thumbnail'},
+             *      {...}
              * ]
              */
             images: {
@@ -169,26 +170,22 @@
 
 <style lang="scss" >
     .v-gallery {
+        .blueimp-gallery-controls {
+            h3.title, a.prev, a.next, a.close { color: white !important; }
+        }
         .lightBoxGallery{
             display: inline-block;
-            a {
-                text-decoration: none;
-            }
+            a { text-decoration: none; }
         }
         .light-carousel {
             background-color: white;
             box-shadow: none;
             max-width: 1000px;
-            .title, .play-pause {
-                color: #333333;
-                text-shadow: none;
-            }
             .next, .prev{
-                border-color: #eeeeee;
+                border-color: white !important;
                 background-color: transparent;
-                color: #eeeeee;
                 /*text-shadow:1px 1px 2px black;*/
-                box-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
             }
             .title {
                 bottom: 0;
@@ -196,7 +193,6 @@
                 margin: 0;
                 width: 100%;
                 text-align: center;
-                color: white;
                 padding-right: 35px;
                 text-shadow:1px 1px 4px black;
                 white-space: nowrap;
