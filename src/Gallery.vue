@@ -103,7 +103,13 @@
                         enableKeyboardNavigation : true,//是否打开键盘导航
                         toggleControlsOnReturn : false,//是否允许回车，显示/隐藏控制按钮
                         toggleControlsOnSlideClick : false,//是否允许鼠标点击图片，显示/隐藏控制按钮
-                        startSlideshow : false//是否自动开始播放图片轮播
+                        startSlideshow : false,//是否自动开始播放图片轮播
+                        onslide: function (index, slide) {
+                            that.showed(index);
+                        },
+                        onclosed: function () {
+                            that.showed(-1);
+                        }
                     },
                     main = custom ? that.$refs.links : that.$refs.innerLinks,
                     links = main.getElementsByTagName('a');
@@ -120,9 +126,15 @@
                     let a = gallery(that.list, {
                         container: that.$refs.container,
                         carousel: true,
-                        toggleControlsOnSlideClick : false
+                        toggleControlsOnSlideClick : false,
+                        onslide: function (index, slide) {
+                            that.showed(index);
+                        }
                     });
                 });
+            },
+            showed(idx){
+                if(typeof(idx) === 'number') this.$emit('showed', idx);
             },
             convert(){
                 if(Array.isArray(this.images) && this.images.length){
